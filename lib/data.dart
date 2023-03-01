@@ -6,11 +6,6 @@ import 'package:flutter/material.dart';
   которые ты не проходила, почитай про них, это одна из основ вертски.
 */
 
-/*
-      TODO:
-      Почему этот класс в папке widgets если это не виджет?
-      */
-
 class Data {
   static const Map<String, IconData> data = {
     'Home Page': Icons.home_outlined,
