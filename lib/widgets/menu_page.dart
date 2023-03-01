@@ -17,6 +17,11 @@ class MenuPage extends StatelessWidget {
   }
 }
 
+/*
+      TODO:
+      Есть негласное правило: один класс - один файл, разнеси эти два класса 
+      в отдельные файлы в папке widgets, потому что это виджеты.
+      */
 class _MenuWidget extends StatelessWidget {
   const _MenuWidget({super.key});
 
@@ -48,6 +53,7 @@ class _MenuWidgetRow extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       child: Row(
+        // TODO: зачем передавать MainAxisSize.max, если это значение по умолчанию?
         mainAxisSize: MainAxisSize.max,
         children: [
           Icon(icon),
