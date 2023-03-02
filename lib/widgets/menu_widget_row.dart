@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:menu_application/widgets/menu_widget.dart';
+import 'text_and_icon_model.dart';
 
 class MenuWidgetRow extends StatelessWidget {
   const MenuWidgetRow({
